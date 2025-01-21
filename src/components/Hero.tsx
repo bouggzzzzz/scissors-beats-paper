@@ -12,7 +12,7 @@ export const Hero = () => {
           the Internet Wins!
         </h1>
         <p className="text-xl mb-8 max-w-2xl mx-auto">
-          The meme that broke the internet, now cutting into Web3. Join the revolution.
+          From viral moment to Web3 revolution. Join the movement.
         </p>
         <Button
           size="lg"

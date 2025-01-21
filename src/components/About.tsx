@@ -11,18 +11,18 @@ export const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-xl">
-              What happens when Elon Musk makes a scissor gesture at the inauguration? A meme is born.
+              What happens when a controversial gesture becomes a viral moment? A meme is born.
               And now, it's a coin cutting through the market!
             </p>
             <p className="text-lg text-gray-600">
-              Was it iconic? Was it outrageous? Either way, it's legendary!
+              The internet never forgets, and neither will we. Join the movement!
             </p>
             <div className="bg-gray-100 p-8 rounded-lg">
               <h3 className="text-2xl font-bold mb-4">Meme Timeline</h3>
               <div className="space-y-4">
                 <div className="flex items-center space-x-4">
                   <div className="w-4 h-4 rounded-full bg-sbp-red"></div>
-                  <p>Elon's Iconic Gesture</p>
+                  <p>The Controversial Moment</p>
                 </div>
                 <div className="flex items-center space-x-4">
                   <div className="w-4 h-4 rounded-full bg-sbp-blue"></div>
