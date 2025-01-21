@@ -17,23 +17,30 @@ export const About = () => {
             <p className="text-lg text-gray-600">
               Was it iconic? Was it outrageous? Either way, it's legendary!
             </p>
-          </div>
-          <div className="bg-gray-100 p-8 rounded-lg">
-            <h3 className="text-2xl font-bold mb-4">Meme Timeline</h3>
-            <div className="space-y-4">
-              <div className="flex items-center space-x-4">
-                <div className="w-4 h-4 rounded-full bg-sbp-red"></div>
-                <p>Elon's Iconic Gesture</p>
-              </div>
-              <div className="flex items-center space-x-4">
-                <div className="w-4 h-4 rounded-full bg-sbp-blue"></div>
-                <p>Internet Explosion</p>
-              </div>
-              <div className="flex items-center space-x-4">
-                <div className="w-4 h-4 rounded-full bg-sbp-gray"></div>
-                <p>$SBP Launch</p>
+            <div className="bg-gray-100 p-8 rounded-lg">
+              <h3 className="text-2xl font-bold mb-4">Meme Timeline</h3>
+              <div className="space-y-4">
+                <div className="flex items-center space-x-4">
+                  <div className="w-4 h-4 rounded-full bg-sbp-red"></div>
+                  <p>Elon's Iconic Gesture</p>
+                </div>
+                <div className="flex items-center space-x-4">
+                  <div className="w-4 h-4 rounded-full bg-sbp-blue"></div>
+                  <p>Internet Explosion</p>
+                </div>
+                <div className="flex items-center space-x-4">
+                  <div className="w-4 h-4 rounded-full bg-sbp-gray"></div>
+                  <p>$SBP Launch</p>
+                </div>
               </div>
             </div>
+          </div>
+          <div className="rounded-lg overflow-hidden shadow-xl">
+            <img 
+              src="/lovable-uploads/6b8af890-922a-45cc-bcf4-2f833e8fb705.png" 
+              alt="Scissors Beats Paper Meme" 
+              className="w-full h-auto"
+            />
           </div>
         </div>
       </div>

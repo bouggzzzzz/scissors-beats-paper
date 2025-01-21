@@ -1,4 +1,4 @@
-import { Twitter, MessageSquare } from "lucide-react";
+import { Twitter, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const Community = () => {
@@ -14,18 +14,18 @@ export const Community = () => {
           <Button
             size="lg"
             className="bg-[#1DA1F2] hover:bg-[#1a8cd8]"
-            onClick={() => window.open("https://twitter.com", "_blank")}
+            onClick={() => window.open("https://twitter.com/SBPCoin", "_blank")}
           >
             <Twitter className="mr-2" />
             Join Twitter
           </Button>
           <Button
             size="lg"
-            className="bg-[#5865F2] hover:bg-[#4752c4]"
-            onClick={() => window.open("https://discord.com", "_blank")}
+            className="bg-[#0088cc] hover:bg-[#0077b3]"
+            onClick={() => window.open("https://t.me/SBPCoin", "_blank")}
           >
-            <MessageSquare className="mr-2" />
-            Join Discord
+            <Send className="mr-2" />
+            Join Telegram
           </Button>
         </div>
       </div>
